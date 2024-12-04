@@ -1,0 +1,160 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bokklubben</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<script src="index.js" defer></script>
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#information">OM OSS</a></li>
+                    <li><a href="#böcker">BÖCKER</a></li>
+                    <li><a href="#recensioner">RECENSIONER</a></li>
+                    <li><a href="#kontakt">KONTAKT</a></li>
+                    <li><a href="login.html">LOGGA IN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="hero-container">
+            <h1>Bokklubben</h1>
+            <p>Här hos oss på Bokklubben kan du ta del av inspirerande lästips, läsa recensioner och upptäcka nya favoriter.<br>Dela dina egna boktips med andra bokälskare och hitta din nästa läsupplevelse tillsammans med oss.</p>
+            <a href="#information" class="hero-btn">Läs Mer</a>
+            <a href="login.html" class="hero-btn">Bli Medlem</a>
+        </div>
+    </section>
+
+    <!---------- Information ----------->
+    <main>
+    <section class="information-sektion" id="information">
+        <h1>Information</h1>
+        <p class="underrubrik">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="row">
+            <div class="information-col">
+                <h3>Lästips</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="information-col">
+                <h3>Medlemskap</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+            <div class="information-col">
+                <h3>Om Oss</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Bibliotek ---------->
+    
+    <section class="bibliotek">
+        <h1>Bibliotek i Europa</h1>
+        <p class="underrubrik">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="bibliotek-col">
+                    <img src="images/Stockholm.jpg">
+                    <div class="layer">
+                        <h3>STOCKHOLM</h3>
+                    </div>
+                </div>
+                <div class="bibliotek-col">
+                    <img src="images/Madrid.jpg">
+                    <div class="layer">
+                        <h3>MADRID</h3>
+                    </div>
+                </div>
+                <div class="bibliotek-col">
+                    <img src="images/Berlin.jpg">
+                    <div class="layer">
+                        <h3>BERLIN</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Våra Böcker ---------->
+    
+<section class="böcker-sektion">
+    <h1>Våra Böcker</h1>
+        <p class="underrubrik">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="slider">
+      <button class="prev">&lt;</button>
+      <div class="slides-container"></div>
+      <button class="next">&gt;</button>
+    </div>
+</section>
+    
+<!---------- Medlemskap recensioner ---------->
+    
+    <section class="medlemskap-sektion" id="recensioner">
+        <h1>Medlemskap recensioner</h1>
+        <p class="underrubrik">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="medlemskap-col">
+                    <img src="images/user1.PNG">
+                    <div> 
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>Niklas Johansson</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="medlemskap-col">
+                    <img src="images/user2.PNG">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+                        <h3>Elizabeth Karlsson</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!------ Uppmaning för registrering ------>
+
+<section class="registrera-sektion">
+    
+       <h1>Bli Medlem Och Få Tillgång Till Bokklubbens Förmåner!<br>Registrera Digitalt Eller Kontakta Oss Personligen För Tillvägagångssätt</h1>
+        <a href="login.html" class="hero-btn">Bli Medlem</a>
+    
+</section>    
+</main> 
+<!-------- Footer ---------->
+<footer>
+<section class="footer" id="kontakt">
+        <h4>Kontakta oss</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <a href="index.html"><i class="fa fa-facebook"></i></a>
+            <a href="index.html"><i class="fa fa-twitter"></i></a>
+            <a href="index.html"><i class="fa fa-instagram"></i></a>
+            <a href="index.html"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <a href="index.html" class="footer-link"><p>© 2024 Bokklubben. Alla rättigheter förbehållna.</p></a>
+</section>  
+</footer>
+
+</body>
+</html>
+
+
+
